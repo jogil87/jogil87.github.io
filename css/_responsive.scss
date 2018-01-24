@@ -1,0 +1,78 @@
+
+/* -------------------------------------------------------
+                     phone & tablet
+-------------------------------------------------------- */
+@media (max-width: 575px) {
+    .filtering button {
+        font-size: 12px !important;
+        padding: 2px 0 !important;
+        margin-left: .2rem !important;
+        border-radius: 0 !important;
+    }
+    .work {
+        .tit {
+            display: none;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        h1 {
+            span {
+                font-size: 1rem !important;
+            }
+            font-size: 2rem !important;
+        }
+        li {
+            font-size: .6rem !important; 
+        }
+        .social_icon {
+            i {
+                margin: 2px !important;
+            }
+        }
+    }
+
+    .hero {
+        padding: 1rem !important;
+    }
+
+    .resume-content {
+        .left {
+            text-align: justify !important;
+            border-left: 1px solid #f4f4f4 !important;
+            border-right: none !important;
+            .icon {
+                left: 15px !important;
+              }
+            li {
+                position: relative;
+                &::after {
+                left: -6px !important;
+                }
+            }
+        }
+    }
+    
+    .services-item {
+        border: none !important;
+    }
+    .item-client {
+        padding: 1rem !important;
+    }
+    .sm-mb-0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 991px){
+    
+    .services{
+        &:after  {
+            display: none;
+        }
+    }
+
+    .sm-mb-50{margin-bottom: 50px;}
+
+}
