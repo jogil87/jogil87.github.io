@@ -105,12 +105,12 @@ body {
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #f5f5f5; }
     .title h4 span {
-      color: #9c27b0; }
+      color: #1f509e; }
     .title h4::before {
       content: '';
       width: 60px;
       height: 1px;
-      background-color: #9c27b0;
+      background-color: #1f509e;
       position: absolute;
       left: 0;
       bottom: 0; }
@@ -121,7 +121,7 @@ body {
     background-color: #fff; }
 
 .button-hot {
-  background-color: #9c27b0 !important; }
+  background-color: #1f509e !important; }
 
 /*********************
       Navbar
@@ -146,7 +146,7 @@ body {
     padding: 0 !important;
     transition: all .3s; }
     .navbar .navbar-nav > li > a:hover {
-      color: #9c27b0 !important; }
+      color: #1f509e !important; }
   .navbar .navbar-nav > li {
     font-size: 15px;
     margin: 0 15px;
@@ -154,7 +154,7 @@ body {
     cursor: pointer;
     position: relative; }
     .navbar .navbar-nav > li .active {
-      color: #9c27b0 !important;
+      color: #1f509e !important;
       background: none; }
 
 .navbar-toggler {
@@ -176,7 +176,6 @@ body {
     display: block !important; }
   .nav-scroll .logo-2 {
     display: none !important; }
-    }
 
 /*********************
       Header
@@ -231,7 +230,7 @@ body {
     cursor: pointer;
     transition: all .5s; }
     .header .info .social_icon i:hover {
-      background-color: #9c27b0;
+      background-color: #1f509e;
       color: #fff; }
 
 /*********************
@@ -270,6 +269,10 @@ body {
       border-radius: 5px;
       border: 10px solid #f4f5f8; }
 
+      .reslink {
+        color: inherit;
+      }
+
 /*********************
       Skills
 *********************/
@@ -301,7 +304,7 @@ body {
       border-radius: 4px !important; }
     .skills .barfiller .tip {
       background-color: #fff;
-      color: #9c27b0;
+      color: #1f509e;
       margin-top: -13px;
       padding: 0 4px;
       font-size: 12px;
@@ -348,7 +351,7 @@ body {
         font-size: .8rem;
         font-weight: 500; }
       .resume .resume-content ul li h5 {
-        color: #9c27b0;
+        color: #1f509e;
         font-size: .9rem;
         font-weight: 600;
         margin-top: 15px; }
@@ -388,7 +391,7 @@ body {
       margin-bottom: 30px; }
       .counter .block-counter .icon span {
         font-size: 2rem;
-        color: #9c27b0;
+        color: #1f509e;
         transition: all .3s; }
     .counter .block-counter h4 {
       font-size: 1.5rem;
@@ -430,7 +433,7 @@ body {
       padding: 1.2rem;
       border-radius: 50%;
       font-size: 2rem;
-      color: #9c27b0;
+      color: #1f509e;
       transition: all .8s; }
     .services .services-item h4 {
       font-size: .9rem;
@@ -438,7 +441,7 @@ body {
     .services .services-item p {
       font-size: .9rem; }
     .services .services-item:hover span {
-      background-color: #9c27b0;
+      background-color: #1f509e;
       color: #fff;
       box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.12); }
   .services .services-item:nth-child(odd) {
@@ -469,14 +472,14 @@ body {
         width: 3px;
         height: 3px;
         border-radius: 50%;
-        background-color: #9c27b0;
+        background-color: #1f509e;
         display: none; }
       .portfolio .filtering button:hover {
-        color: #9c27b0; }
+        color: #1f509e; }
       .portfolio .filtering button:hover:after {
         display: block; }
     .portfolio .filtering .active {
-      color: #9c27b0;
+      color: #1f509e;
       border-top: 1px solid #f7f7f7;
       transition: all .5s; }
       .portfolio .filtering .active::after {
@@ -510,7 +513,7 @@ body {
           left: 170%;
           width: 100%;
           height: 100%;
-          border: 1px solid #9c27b0;
+          border: 1px solid #1f509e;
           background: rgba(0, 0, 0, 0.1);
           transform: skewX(45deg);
           transition: all 1s;
@@ -534,7 +537,7 @@ body {
           display: inline-block;
           margin: 1rem;
           font-size: 1.2rem;
-          color: #9c27b0; }
+          color: #1f509e; }
           .portfolio .gallery .item-img .item-img-overlay .icon a:hover {
             color: #ddd; }
         .portfolio .gallery .item-img .item-img-overlay:hover .cap {
@@ -559,7 +562,7 @@ body {
     overflow: hidden;
     text-align: center; }
     .testimonel .item-client h4 {
-      color: #9c27b0;
+      color: #1f509e;
       font-size: .9rem;
       font-weight: 600; }
     .testimonel .item-client p {
@@ -579,7 +582,7 @@ body {
     margin: 5px; }
   .testimonel .active span {
     width: 30px !important;
-    background-color: #9c27b0 !important; }
+    background-color: #1f509e !important; }
 
 /*********************
       Blog
@@ -593,7 +596,7 @@ body {
       top: 15px;
       right: 15px;
       background-color: #fff;
-      color: #9c27b0;
+      color: #1f509e;
       padding: .2rem .4rem;
       border-radius: 30px;
       font-weight: 400; }
@@ -612,7 +615,7 @@ body {
         padding: 1rem 0;
         transition: all 200ms linear; }
       .blog .item-blog .content-blog a:hover h4 {
-        color: #9c27b0; }
+        color: #1f509e; }
     .blog .item-blog .content-blog p {
       text-align: center;
       border-bottom: 1px solid #fff;

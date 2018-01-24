@@ -16,7 +16,7 @@ $(function () {
         onPageChange: null,    // function(pageIndex) that is called when page is changed
     });
 
-  
+
     /* navbar scrolling background
     -------------------------------------------------------*/
     wind.on("scroll",function () {
@@ -33,7 +33,7 @@ $(function () {
             navbar.removeClass("nav-scroll");
         }
 
-    });  
+    });
 
 
     /* typejs
@@ -51,61 +51,61 @@ $(function () {
     /* Progress Bars
      -------------------------------------------------------*/
     wind.on("scroll",function () {
-    
+
       var bodyScroll = wind.scrollTop()
 
       if(bodyScroll > 1300){
 
         $('#bar1').barfiller({
           // color of bar
-          barColor: '#9c27b0',
+          barColor: '#1f509e',
           // duration in ms
           duration: 2000
         });
 
         $('#bar2').barfiller({
             // color of bar
-            barColor: '#9c27b0',
+            barColor: '#1f509e',
             // duration in ms
             duration: 2000
         });
 
         $('#bar3').barfiller({
             // color of bar
-            barColor: '#9c27b0',
+            barColor: '#1f509e',
             // duration in ms
             duration: 1600
         });
 
         $('#bar4').barfiller({
             // color of bar
-            barColor: '#9c27b0',
+            barColor: '#1f509e',
             // duration in ms
             duration: 1700
         });
 
         $('#bar5').barfiller({
             // color of bar
-            barColor: '#9c27b0'
+            barColor: '#1f509e'
         });
 
         $('#bar6').barfiller({
             // color of bar
-            barColor: '#9c27b0',
+            barColor: '#1f509e',
             // duration in ms
             duration: 1800
         });
 
         $('#bar7').barfiller({
           // color of bar
-          barColor: '#9c27b0',
+          barColor: '#1f509e',
           // duration in ms
           duration: 1800
         });
 
         $('#bar8').barfiller({
             // color of bar
-            barColor: '#9c27b0'
+            barColor: '#1f509e'
           });
       }
     });
@@ -129,7 +129,7 @@ $(function () {
     -------------------------------------------------------*/
     $('.parallax').sparallax();
 
-  
+
     /* owl carousel cliant
     -------------------------------------------------------*/
     $('.testimonel .owl-carousel').owlCarousel({
@@ -139,8 +139,8 @@ $(function () {
         autoplay:true,
         smartSpeed:500
 
-    }); 
-  
+    });
+
 
     // init the validator
     // validator files are included in the download package
@@ -198,33 +198,33 @@ $(function () {
 
 
 $(window).load(function(){
-    
-    
+
+
     /* isotope
     -------------------------------------------------------*/
     var $gallery = $('.gallery').isotope({});
     $('.gallery').isotope({
-  
+
       // options
       itemSelector: '.item-img'
-  
+
     });
-  
-    
+
+
     /* filter items on button click
     -------------------------------------------------------*/
     $('.filtering').on( 'click', 'button', function() {
-  
+
       var filterValue = $(this).attr('data-filter');
-  
+
       $gallery.isotope({ filter: filterValue });
-  
+
       });
-  
+
     $('.filtering').on( 'click', 'button', function() {
-  
+
         $(this).addClass('active').siblings().removeClass('active');
-  
+
     });
-  
+
 })
