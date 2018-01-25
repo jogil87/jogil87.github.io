@@ -67,9 +67,16 @@ TABLE OF CONTENTS
 @media (max-width: 991px) {
   .services:after {
     display: none; }
-
   .sm-mb-50 {
     margin-bottom: 50px; } }
+
+    @media (max-width: 1200px) {
+      .media12 {
+        float: none;
+        width: auto;
+      } }
+
+
 /*********************
       GENERAL
 *********************/
@@ -407,6 +414,7 @@ body {
     .counter .block-counter:hover span {
       transform: scale(1.1); }
 
+
 /*********************
       Services
 *********************/
@@ -415,7 +423,7 @@ body {
   background: #f4f5f8;
   overflow: hidden !important; }
   .services:after {
-    content: "";
+    /* content: ""; */
     position: absolute;
     left: 5%;
     top: 56%;
