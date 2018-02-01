@@ -392,7 +392,7 @@ body {
       margin-bottom: 30px; }
       .counter .block-counter .icon span {
         font-size: 2rem;
-        color: #1f509e;
+        color: #5EF320;
         transition: all .3s; }
     .counter .block-counter h4 {
       font-size: 1.5rem;
@@ -435,7 +435,7 @@ body {
       padding: 1.2rem;
       border-radius: 50%;
       font-size: 2rem;
-      color: #1f509e;
+      color: #5ef320;
       transition: all .8s; }
     .services .services-item h4 {
       font-size: .9rem;
