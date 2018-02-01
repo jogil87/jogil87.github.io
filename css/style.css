@@ -70,12 +70,6 @@ TABLE OF CONTENTS
   .sm-mb-50 {
     margin-bottom: 50px; } }
 
-    @media (max-width: 1200px) {
-      .media12 {
-        float: none;
-        width: auto;
-      } }
-
 
 /*********************
       GENERAL
